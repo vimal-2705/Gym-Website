@@ -1,0 +1,1121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-image1 {
+  background-image: url("./images/image1.jpg");
+}
+.slide-image2 {
+  background-image: url("./images/pexels-yaroslav-shuraev-8472147.jpg");
+}
+.slide-image3 {
+  background-image: url("./images/pexels-pixabay-50597.jpg");
+}
+.slide-image4 {
+  background-image: url("./images/pexels-victor-freitas-791763.jpg");
+}
+
+.slide-image1,
+.slide-image2,
+.slide-image3,
+.slide-image4 {
+  width: 100%;
+  min-height: 100vh;
+  box-shadow: inset 0 0 70rem 8rem #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: -3%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-items {
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  padding: 10px 35px;
+  margin: 0px 5px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.nav-item:hover {
+  color: rgb(255, 145, 0);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.item4 {
+  margin: 0px 20px;
+  background-image: url("./images/Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Title {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  right: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 35px;
+}
+
+.colored {
+  color: rgb(255, 145, 0);
+  font-size: 35px;
+}
+
+.colored-rs {
+  color: rgb(255, 145, 0);
+  font-size: 25px;
+}
+
+.colored-pack {
+  color: rgb(255, 145, 0);
+  font-size: 22px;
+}
+
+.about-container {
+  width: 100%;
+  min-height: 70vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.pexels.com/photos/4761779/pexels-photo-4761779.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 31px;
+  color: rgb(223, 126, 0);
+}
+
+.heading-bold {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 31px;
+  color: rgb(223, 126, 0);
+  font-weight: bold;
+}
+
+p {
+  margin: 20px 300px;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.navigate-btn {
+  border: none;
+  outline: none;
+  background-color: rgb(223, 126, 0);
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(255, 255, 255);
+  border-radius: 2px;
+  position: relative;
+}
+
+.contact-btn {
+  outline: none;
+  border: none;
+  padding: 7px 18px;
+  font-weight: normal;
+  box-shadow: 0 0 4px rgb(255, 255, 255, 0.7);
+  color: rgb(255, 145, 0);
+  font-weight: normal;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.about-btn {
+  outline: none;
+  border: none;
+  padding: 7px 18px;
+  font-weight: normal;
+  box-shadow: 0 0 4px rgb(255, 255, 255, 0.7);
+  color: rgb(255, 145, 0);
+  font-weight: normal;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.service-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.service1,
+.service2 {
+  display: flex;
+  padding: 10px 300px;
+}
+
+.service1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.service2 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.service1-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.service2-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.service1-name,
+.service2-name {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 0 8px 0;
+  color: rgb(228, 137, 0);
+}
+
+.service1-img,
+.service2-img {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 3px solid rgb(223, 126, 0);
+}
+
+.service1-text,
+.service2-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: black;
+}
+
+.service2-text {
+  text-align: left;
+}
+
+.trainers-container {
+  width: 100%;
+  min-height: 90vh;
+  padding: 80px 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.trainer-container {
+  width: 50%;
+  padding-top: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainer {
+  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  box-shadow: 0 0 3px rgb(223, 126, 0);
+}
+
+.trainer2 {
+  transform: scale(1.3);
+  margin: 35px 50px 25px 50px;
+}
+
+.trainer1-img,
+.trainer2-img,
+.trainer3-img {
+  width: 100%;
+}
+
+.trainer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.trainer-name {
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(223, 126, 0);
+}
+
+.trainer-about {
+  font-size: 12px;
+  text-align: center;
+}
+
+.trainer-btn {
+  border: none;
+  outline: none;
+  background-color: rgb(223, 126, 0);
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgba(255, 255, 255);
+  border-radius: 2px;
+}
+
+.packages-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/22/56/naked-1847866__480.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 70rem 8rem #000;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.package {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-first,
+.package-second,
+.package-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.pack-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.pack-details {
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 50px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.pack-price {
+  font-weight: bold;
+}
+
+.register-btn {
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  margin: 15px;
+  font-weight: normal;
+  box-shadow: 0 0 4px rgb(255, 255, 255, 0.6);
+  color: rgb(255, 145, 0);
+  font-weight: 500;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.location-btn {
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  margin-top: 15px;
+  font-weight: normal;
+  box-shadow: 0 0 4px rgb(255, 255, 255, 0.7);
+  color: rgb(255, 145, 0);
+  font-weight: normal;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.shops-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.shop-container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shop-top {
+  min-width: 80%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  background-image: url("https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h5 {
+  color: rgb(228, 137, 0);
+  padding: 5px 20px;
+}
+
+.shop-bottom {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.shop-bottom-right {
+  min-width: 49.5%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-bottom-left {
+  min-width: 49.5%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/39671/physiotherapy-weight-training-dumbbell-exercise-balls-39671.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews-container {
+  width: 100%;
+  padding: 80px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.review-container {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.review-container::-webkit-scrollbar {
+  display: none;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  padding: 10px 20px;
+  margin: 10px 10px 30px 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 4px rgba(255, 153, 0, 0.5);
+}
+
+.review-img {
+  width: 13%;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.part1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.review-name {
+  font-size: 20px;
+  padding: 0 15px;
+  color: rgb(223, 126, 0);
+}
+
+.review-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+  padding: 10px 5px 15px 0;
+}
+
+.contact-container {
+  width: 100%;
+  padding: 80px 30px;
+  background-image: url("https://media.istockphoto.com/photos/torso-of-athletic-man-in-leather-jacket-picture-id920911716?k=20&m=920911716&s=612x612&w=0&h=6G0HoI2WpBaNB2uwS153VFOSUs1ge53JtjlmCl-1SEc=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 80rem 8rem #000;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-directly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0 30px 0;
+}
+
+.call-us,
+.email-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 10px 10px;
+}
+
+.ph-num,
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.fa-phone {
+  color: rgb(204, 116, 0);
+  font-size: 24px;
+  padding: 0 10px 0 0;
+}
+
+.fa-envelope {
+  color: rgb(204, 116, 0);
+  font-size: 20px;
+  padding: 0 10px 0 0;
+}
+
+.fa-user {
+  color: rgb(204, 116, 0);
+  font-size: 24px;
+  padding: 0 10px 0 0;
+}
+
+.locations-container {
+  width: 100%;
+  padding: 80px 30px;
+  background-image: url("https://wallpapercave.com/dwp2x/wp2639558.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 100rem 10rem #000;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reachus {
+  width: 100%;
+  padding: 80px 30px;
+  background-image: url("https://mcdn.wallpapersafari.com/medium/71/0/KUmtY1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 100rem 10rem #000;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location {
+  display: flex;
+  padding: 0 20px;
+}
+
+.loc {
+  flex: 1;
+  padding: 0 150px;
+}
+
+.location1 {
+  border-right: 2px solid rgb(204, 116, 0, 0.5);
+}
+
+.location-address {
+  font-weight: lighter;
+}
+
+.location-topic {
+  text-align: center;
+  color: rgb(223, 126, 0);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+  color: rgb(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.line {
+  width: 100%;
+  border-top: 2px solid rgb(204, 116, 0, 0.5);
+}
+
+.copyrights {
+  padding: 20px 0;
+}
+
+/*About Us page Css*/
+
+.aboutus-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutus-parallax {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://media.istockphoto.com/photos/torso-of-athletic-man-in-leather-jacket-picture-id920911716?k=20&m=920911716&s=612x612&w=0&h=6G0HoI2WpBaNB2uwS153VFOSUs1ge53JtjlmCl-1SEc=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 80rem 8rem #000;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contactus-parallax {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://media.istockphoto.com/photos/torso-of-athletic-man-in-leather-jacket-picture-id920911716?k=20&m=920911716&s=612x612&w=0&h=6G0HoI2WpBaNB2uwS153VFOSUs1ge53JtjlmCl-1SEc=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 80rem 8rem #000;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.page-heading {
+  font-size: 50px;
+}
+
+.aboutus1,
+.aboutus2 {
+  width: 100%;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-right1 {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-left1 {
+  flex: 2;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_working_out_6psf.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-left2 {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-left3 {
+  flex: 2;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_Activity_tracker_re_2lvv.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-right2 {
+  flex: 2;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/undraw_fitness_tracker_3033.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutus-text {
+  font-size: 15px;
+  padding: 5px 30px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+/*Contact Us Page Css*/
+
+.contactus-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.get-in-touch {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.direct-contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.contact-left {
+  flex: 2;
+  min-height: 40vh;
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/contact.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.send-message {
+  font-size: 19px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.contact-right {
+  flex: 2;
+}
+
+/*Trainee Page Css*/
+
+.trainerspage-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trainee1 {
+  width: 90%;
+  margin: 40px auto 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainee1-left {
+  flex: 1;
+  min-height: 80vh;
+  margin-right: 5px;
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/DSC02284.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.trainee1-right {
+  flex: 2;
+  min-height: 80vh;
+  margin-left: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trainee1-name {
+  font-size: 27px;
+  color: rgb(255, 145, 0);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.trainee1-details {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.other-trainee-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.other-trainee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 30%;
+  box-shadow: 0 0 5px rgba(219, 132, 0, 0.5);
+}
+
+.other-trainee-top {
+  width: 100%;
+  min-height: 35vh;
+  background-image: url("https://wallpapercave.com/wp/wp2639558.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other-trainee-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.other-trainee-name {
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+  color: rgb(255, 145, 0, 0.9);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.other-trainee-details {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0 30px 30px 30px;
+  text-align: center;
+}
+
+/* Service page Css */
+
+.service-page-container {
+  width: 100%;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service {
+  max-width: 70%;
+  padding: 30px 30px 50px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-left {
+  flex: 1;
+  min-height: 45vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+}
+
+.left1 {
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/cardio.jpg");
+}
+
+.left2 {
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/weightloss.jpg");
+}
+
+.left3 {
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/weightgain.jpg");
+}
+
+.left4 {
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/bodybuild.jpg");
+}
+
+.left5 {
+  background-image: url("https://www.bodytechfitnessclub.in/static/images/diet.jpg");
+}
+
+.service-right {
+  flex: 1;
+  padding: 50px;
+  box-shadow: 0 0 5px rgba(219, 132, 0);
+  background-color: rgba(255, 255, 255);
+  position: relative;
+  left: -3%;
+  border-radius: 2px;
+}
+
+.service-name {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 10px 20px 10px;
+  color: rgb(204, 116, 0);
+  text-align: center;
+}
+
+.service-details {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Payemnt page Css */
+
+.payment-container {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout {
+  width: 100%;
+  padding: 30px 30% 30px 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fee {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-left {
+  font-weight: bold;
+  color: rgb(204, 116, 0, 0.9);
+}
+
+.pay-left {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.pay-right {
+  font-size: 19px;
+  color: rgb(204, 116, 0);
+}
+
+.packs-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.select-option {
+  margin: 0;
+  padding: 40px;
+}
+
+.pack-container {
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.pack {
+  max-width: 30%;
+  box-shadow: 0 0 5px rgb(204, 116, 0, 0.5);
+  padding: 10px 20px 15px 20px;
+}
+
+.pack1-name {
+  font-size: 16px;
+  color: rgb(204, 116, 0);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+}
+
+.pack1-details {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 0;
+}
+
+.pay-now {
+  width: 100%;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  padding: 8px 20px;
+  box-shadow: 0 0 5px rgb(204, 116, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
