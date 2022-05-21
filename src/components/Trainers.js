@@ -56,6 +56,9 @@ function Trainers() {
           </div>
         </div>
       </div>
+      <center>
+      <button className="navigate-btn last">All Trainers</button>
+      </center>
     </div>
   );
 }

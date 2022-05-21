@@ -9,7 +9,7 @@ function Contact() {
         visually similar files.Search by image now supports video! Upload an
         image or video and find visually similar files.
       </p>
-      <h5>Contact us directly</h5>
+      <h5 className="direct">Contact us directly</h5>
       <div className="contact-directly">
         <div className="call-us">
           <i class="fa fa-phone" aria-hidden="true"></i>
