@@ -11,18 +11,18 @@ function Shop() {
       </p>
       <div className="shop-container">
         <div className="shop-top">
-          <h5>Shop Gym Related Products Here</h5>
+         
         </div>
         <div className="shop-bottom">
           <div className="shop-bottom-left">
-            <h5>Food</h5>
+   
           </div>
           <div className="shop-bottom-right">
-            <h5>Equipments</h5>
+
           </div>
         </div>
       </div>
-      <button className="navigate-btn">All products</button>
+      {/*<button className="navigate-btn">All products</button>*/}
     </div>
   );
 }

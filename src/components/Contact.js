@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -21,7 +22,9 @@ function Contact() {
           <div className="mail">bodytech.fitclub@gmail.com</div>
         </div>
       </div>
+      <Link to="/contactus">
       <button className="contact-btn">Send Message</button>
+      </Link>
     </div>
   );
 }

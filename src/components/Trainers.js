@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Trainers() {
   return (
@@ -38,7 +39,7 @@ function Trainers() {
               appear.
             </div>
           </div>
-          <button className="trainer-btn">All Trainers</button>
+          <Link to="/trainers"><button className="trainer-btn">All Trainers</button></Link>
         </div>
 
         <div className="trainer trainer3">
@@ -57,7 +58,7 @@ function Trainers() {
         </div>
       </div>
       <center>
-      <button className="navigate-btn last">All Trainers</button>
+      <Link to="/trainers"><button className="navigate-btn last">All Trainers</button></Link>
       </center>
     </div>
   );

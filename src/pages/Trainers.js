@@ -1,7 +1,10 @@
-import React from "react";
+import {React, useEffect} from "react";
 import Footer from "../components/Footer";
 
 function Trainers() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="trainerspage-container">
       <div className="aboutus-parallax">
@@ -21,7 +24,7 @@ function Trainers() {
         ></i>
       </div>
       <div className="trainee1">
-        <div className="trainee1-left">hellohkj</div>
+        <div className="trainee1-left"></div>
         <div className="trainee1-right">
           <div className="trainee1-name">Builder</div>
           <div className="trainee1-details">

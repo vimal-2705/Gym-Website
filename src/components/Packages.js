@@ -25,7 +25,7 @@ function Packages() {
             ></i>
             <span className="colored-rs">1000</span> only
           </div>
-          <button className="register-btn">Register</button>
+          {/*<button className="register-btn">Register</button>*/}
         </div>
         <div className="package-second">
           <div className="pack-name">
@@ -42,8 +42,8 @@ function Packages() {
               style={{ fontSize: "15px" }}
             ></i>
             <span className="colored-rs">5000</span> only
-          </div>
-          <button className="register-btn">Register</button>
+          </div> 
+          {/*<button className="register-btn">Register</button>*/}
         </div>
         <div className="package-third">
           <div className="pack-name">
@@ -61,7 +61,7 @@ function Packages() {
             ></i>
             <span className="colored-rs">9000</span> only
           </div>
-          <button className="register-btn">Register</button>
+          {/*<button className="register-btn">Register</button>*/}
         </div>
       </div>
     </div>

@@ -1,8 +1,11 @@
-import React from "react";
+import {React, useEffect} from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 function AboutUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="aboutus-container">
       <div className="aboutus-parallax">
@@ -64,9 +67,9 @@ function AboutUs() {
         <div className="about-right2"></div>
       </div>
 
-      <div className="aboutus1">
+      <div className="aboutus3">
         <div className="about-left3"></div>
-        <div className="about-right1">
+        <div className="about-right3">
           <div className="heading-bold">PLAN YOUR FITNESS WITH US!</div>
           <div className="aboutus-text">
             The body tech was first established on 25th May 2018 in SIDCO

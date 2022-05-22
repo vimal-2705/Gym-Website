@@ -1,8 +1,11 @@
-import React from "react";
+import {useEffect, React} from "react";
 import Footer from "../components/Footer";
 import Locations from "../components/Locations";
 
 function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="contactus-container">
       <div className="contactus-parallax">

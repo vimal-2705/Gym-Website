@@ -56,6 +56,8 @@
   margin: 0px 5px;
   transition: 0.3s;
   font-size: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-item:hover {
@@ -365,6 +367,7 @@ p {
 
 .pack-price {
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .register-btn {
@@ -706,7 +709,8 @@ h5 {
 }
 
 .aboutus1,
-.aboutus2 {
+.aboutus2,
+.aboutus3 {
   width: 100%;
   padding: 60px 30px;
   display: flex;
@@ -853,7 +857,7 @@ h5 {
 
 .trainee1-left {
   flex: 1;
-  min-height: 80vh;
+  min-height: 70vh;
   margin-right: 5px;
   background-image: url("https://www.bodytechfitnessclub.in/static/images/DSC02284.JPG");
   background-position: center;
@@ -864,7 +868,7 @@ h5 {
 
 .trainee1-right {
   flex: 2;
-  min-height: 80vh;
+  min-height: 70vh;
   margin-left: 5px;
   padding: 20px;
   box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
@@ -1135,7 +1139,8 @@ h5 {
   p {
     margin: auto 20%;
   }
-  .service1, .service2 {
+  .service1,
+  .service2 {
     padding: 20px 20%;
   }
   .trainer-container {
@@ -1164,54 +1169,121 @@ h5 {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .service {
+    min-width: 100%;
+  }
+}
+
 @media screen and (max-width: 700px) {
-.item3, .item5 {
-  display: none;
-}
-.colored {
-  font-size: 30px;
-}
-.Title {
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-.heading {
-  font-size: 27px;
-}
-p {
-  margin: auto 15%;
-  font-size: 15px;
-}
-.trainer {
-  min-width: 50%;
-}
-.loc {
-  padding: 10px 50px;
-}
-.review {
-  min-width: 50%;
-}
-.copyrights {
-  font-size: 15px;
-}
-.ph-num, .mail {
-  font-size: 15px;
-}
+  .item6,
+  .item3 {
+    display: none;
+  }
+  .colored {
+    font-size: 30px;
+  }
+  .Title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 27px;
+  }
+  p {
+    margin: auto 15%;
+    font-size: 15px;
+  }
+  .trainer {
+    min-width: 50%;
+  }
+  .loc {
+    padding: 10px 50px;
+  }
+  .review {
+    min-width: 50%;
+  }
+  .copyrights {
+    font-size: 15px;
+  }
+  .ph-num,
+  .mail {
+    font-size: 15px;
+  }
+  .page-heading {
+    font-size: 38px;
+  }
+  .service-right {
+    position: static;
+  }
+  .service {
+    flex-wrap: wrap;
+    min-width: 90%;
+  }
+  .trainee1 {
+    flex-wrap: wrap;
+  }
+  .trainee1-left {
+    min-width: 40%;
+  }
+  .trainee1-details {
+    font-size: 14px;
+  }
+  .other-trainee-details {
+    font-size: 14px;
+  }
+  .other-trainee {
+    min-width: 45%;
+    margin: 10px 5px 10px 5px;
+  }
+  .other-trainee-container {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 600px) {
-.service1,.service2 {
-  padding: 20px;
-}
-.loc {
-  padding: 20px;
-}
-.package {
-  flex-wrap: wrap;
-}
-.package-first, .package-second, .package-third {
-  margin: 10px 0;
-}
+  .service1,
+  .service2 {
+    padding: 20px;
+  }
+  .loc {
+    padding: 20px;
+  }
+  .package {
+    flex-wrap: wrap;
+  }
+  .package-first,
+  .package-second,
+  .package-third {
+    margin: 10px 0;
+  }
+  .service {
+    display: block;
+  }
+  .service-left {
+    min-width: 100%;
+    min-height: 40vh;
+  }
+  .about-left1,
+  .about-left2,
+  .about-left3 {
+    min-width: 50%;
+  }
+  .aboutus-text {
+    font-size: 13px;
+  }
+  .heading-bold {
+    font-size: 29px;
+  }
+  .trainee1-left {
+    max-width: 70%;
+  }
+  .trainee1-right {
+    margin: 0;
+  }
+  .trainee1-right {
+    min-width: 70%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1233,7 +1305,11 @@ p {
   p {
     font-size: 14px;
   }
-  .navigate-btn, .about-btn, .register-btn, .location-btn, .contact-btn {
+  .navigate-btn,
+  .about-btn,
+  .register-btn,
+  .location-btn,
+  .contact-btn {
     font-size: 13px;
   }
   .direct {
@@ -1254,13 +1330,13 @@ p {
     padding: 80px 20px;
     color: rgba(0, 0, 0, 0.8);
   }
-  
+
   .trainer-container {
     min-width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
   }
-  
+
   .trainer {
     min-width: 75%;
     display: flex;
@@ -1270,13 +1346,14 @@ p {
     margin-top: 20px;
     box-shadow: 0 0 3px rgb(223, 126, 0);
   }
-  
+
   .trainer2 {
     transform: scale(1);
     margin: 0;
     margin-top: 10px;
   }
-  .trainer1, .trainer3 {
+  .trainer1,
+  .trainer3 {
     margin-top: 10px;
   }
   .last {
@@ -1287,6 +1364,48 @@ p {
   }
   .trainer3 {
     margin-bottom: 20px;
+  }
+  .page-heading {
+    font-size: 28px;
+  }
+  .aboutus1,
+  .aboutus3 {
+    flex-wrap: wrap;
+  }
+  .aboutus2 {
+    flex-wrap: wrap-reverse;
+  }
+  .about-left1,
+  .about-left2,
+  .about-left3 {
+    min-width: 70%;
+  }
+  .about-right1,
+  .about-right2,
+  .about-right3 {
+    min-width: 90%;
+  }
+  .trainee1-right {
+    margin-top: 10px;
+    min-height: 60px;
+  }
+  .trainee1-left {
+    min-width: 100%;
+    min-height: 50vh;
+  }
+  .other-trainee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-trainee {
+    min-width: 80%;
+  }
+  .slide-image1,
+  .slide-image2,
+  .slide-image3,
+  .slide-image4 {
+    box-shadow: inset 0 0 20rem 2rem #000;
   }
 }
 
@@ -1301,7 +1420,7 @@ p {
   .item2 {
     padding-right: 0;
   }
-  .item6 {
+  .item5 {
     padding-left: 0;
   }
   p {
@@ -1322,10 +1441,12 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .service1-img, .service2-img {
+  .service1-img,
+  .service2-img {
     min-width: 80%;
   }
-  .service1-info, .service2-info {
+  .service1-info,
+  .service2-info {
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -1347,7 +1468,8 @@ p {
   .location {
     flex-wrap: wrap;
   }
-  .location1, .location2 {
+  .location1,
+  .location2 {
     min-width: 90%;
     border-right: none;
     text-align: center;
@@ -1372,7 +1494,8 @@ p {
   .direct {
     font-size: 17px;
   }
-  .call-us, .mail {
+  .call-us,
+  .mail {
     font-size: 14px;
   }
   .call-us {
@@ -1382,33 +1505,49 @@ p {
     font-size: 13px;
   }
   .trainers-container {
-  width: 100%;
-  min-height: 90vh;
-  padding: 80px 20px;
-  color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    min-height: 90vh;
+    padding: 80px 20px;
+    color: rgba(0, 0, 0, 0.8);
   }
 
-.trainer-container {
-  width: 90%;
-  padding-top: 30px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.slide-image1,
-.slide-image2,
-.slide-image3,
-.slide-image4 {
-  box-shadow: inset 0 0 50rem 5rem #000;
-}
-.packages-container {
-  box-shadow: inset 0 0 50rem 4rem #000;
-}
-.contact-container {
-  box-shadow: inset 0 0 50rem 3rem #000;
-}
-.locations-container {
-  box-shadow: inset 0 0 70rem 7rem #000;
-}
+  .trainer-container {
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-image1,
+  .slide-image2,
+  .slide-image3,
+  .slide-image4 {
+    box-shadow: inset 0 0 20rem 2rem #000;
+  }
+  .packages-container {
+    box-shadow: inset 0 0 50rem 4rem #000;
+  }
+  .contact-container {
+    box-shadow: inset 0 0 50rem 3rem #000;
+  }
+  .locations-container {
+    box-shadow: inset 0 0 70rem 7rem #000;
+  }
+  .trainee1-left {
+    margin: 0;
+    min-width: 90%;
+  }
+  .trainee1-details {
+    padding: 0;
+  }
+  .contact-left {
+    min-width: 50%;
+  }
+  .contact-right {
+    min-width: 60%;
+  }
+  .contacts {
+    flex-wrap: wrap;
+  }
 }

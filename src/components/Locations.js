@@ -16,7 +16,7 @@ function Locations() {
             169/1 D, E-Second Floor, Chettiyar Thottam, Madukkarai Main Rd,
             SIDCO Private Industrial Estate, post, Coimbatore - 641021
           </div>
-          <button className="location-btn">View Map</button>
+          <a href="https://maps.app.goo.gl/Nx4h7toz6bNvTQAGA"><button className="location-btn">View Map</button></a>
         </div>
         <div className="loc location2">
           <div className="location-topic">Address 2</div>

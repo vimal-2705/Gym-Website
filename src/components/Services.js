@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -40,7 +41,9 @@ function Services() {
           src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         />
       </div>
+      <Link to="/services">
       <button className="navigate-btn">All Services</button>
+      </Link>
     </div>
   );
 }

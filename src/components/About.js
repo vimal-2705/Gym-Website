@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
         Rated Gyms. Search Faster, Better and Smarter at ZapMeta Now!
         Information 24/7
       </p>
-      <button className="about-btn">Why Us ?</button>
+      <Link to="/aboutus"><button className="about-btn">Why Us ?</button></Link>
     </div>
   );
 }
